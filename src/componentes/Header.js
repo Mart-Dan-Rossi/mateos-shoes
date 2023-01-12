@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Contexto } from '../contexto/contexto'
 import "./header.css"
+
+const {} = useContext(Contexto)
 
 function Header() {
     return (
