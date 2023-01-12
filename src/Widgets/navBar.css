@@ -1,0 +1,15 @@
+nav {
+    padding: 3px;
+}
+
+nav div {
+    display: flex;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+nav span svg {
+    width: 10px;
+}

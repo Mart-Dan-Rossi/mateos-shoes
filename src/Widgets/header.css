@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    max-width: 15%;
+    max-height: 20rem;
+    aspect-ratio: 1;
+}
+
+.users-profile-and-cart {
+    display: flex;
+}
+
+.icon-container {
+    margin: 0 1rem;
+    position: relative;
+}
+
+.cart-counter {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    border-radius: 100%;
+    padding: 2px;
+    font-size: x-small;
+}
+
+header svg {
+    margin-bottom: 0.5rem;
+    display: block;
+    width: 3rem;
+}
