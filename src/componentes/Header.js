@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import { Contexto } from '../contexto/contexto'
 import "./header.css"
 
-const {} = useContext(Contexto)
 
 function Header() {
+    const {} = useContext(Contexto)
     return (
       <header>
         <img src="../mateosShoesFakeLogo.jpg" alt='Mateos shoes logo' />

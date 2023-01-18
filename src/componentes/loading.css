@@ -1,0 +1,33 @@
+@keyframes girarYTitilar {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.spinner-container, .spinner-container svg {
+    margin: 0 auto;
+}
+
+.spinner-container svg {
+    display: block;
+    height: 60px;
+    width: 60px;
+    animation-name: girarYTitilar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
